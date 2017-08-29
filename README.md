@@ -23,15 +23,15 @@ Check out the Snapshots tab above for information on snapshots that were taken w
 
 Clone this model on your local machine with the Datmo CLI
 
-$ datmo clone https://datmo.io/shabazp/iris-classification
+     $ datmo clone https://datmo.io/shabazp/iris-classification
 
 Now you can run the set of commands below to better understand the advantages of converting a repository to a Datmo Project. First you can check out all of the snapshots that have already been created by the user.
 
-$ datmo snapshot ls 
+     $ datmo snapshot ls 
 
 Once you have viewed all of the existing snapshots, you can create your own by simply running the code below which runs the classification training which saves a few key files (the weights file, metrics for this file) in the output directory which creates a new snapshot.
 
-$ datmo task run "python3 classifier.py"
+     $ datmo task run "python3 classifier.py"
 
 For reference, here are few more quick details about what you can find in the repository.
 
