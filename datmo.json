@@ -16,7 +16,7 @@
     "git_remote_url": "https://github.com/shabazbpatel/iris-classification.git",
     "git_rev": null,
     "id": "oe197skbg2x8",
-    "is_owner": false,
+    "is_owner": true,
     "is_public": true,
     "name": "iris classification",
     "owner_email": "shabaz@datmo.io",
