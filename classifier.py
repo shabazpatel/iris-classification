@@ -4,8 +4,10 @@ import sys
 import json
 import pickle
 import pandas as pd
+import random
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
+random.seed(3)
 
 # nearest neighbors
 from sklearn.neighbors import KNeighborsClassifier
