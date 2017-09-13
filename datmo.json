@@ -18,6 +18,7 @@
     "id": "oe197skbg2x8",
     "is_owner": true,
     "is_public": true,
+    "model_family_id": 3546,
     "name": "iris classification",
     "owner_email": "shabaz@datmo.io",
     "readme": null,
@@ -30,6 +31,6 @@
     "repo_watchers_count": null,
     "slug": "iris-classification",
     "tags": null,
-    "updated_at": "2017-08-29T06:54:05.578Z",
+    "updated_at": "2017-09-11T16:12:28.306Z",
     "username": "shabazp"
 }

@@ -40,7 +40,7 @@ ohenc.fit(y.reshape((-1, 1)))
 y_train_oh = ohenc.transform(y_train.reshape((-1, 1))).toarray()
 y_test_oh = ohenc.transform(y_test.reshape((-1, 1))).toarray()
 
-with open(os.environ['INPUT_DIR']+'/config.json') as f:
+with open('config.json') as f:
      config_dict = json.load(f)
 
 # Selecting type of model based on configuration
@@ -64,9 +64,9 @@ stats = {'training_time': t, 'accuracy': accuracy}
 print("stats:", stats)
 
 # saving model file
-model_filename = os.path.join(os.environ['OUTPUT_DIR'], 'model.dat')
+model_filename = os.path.join('model.dat')
 pickle.dump(model, open(model_filename, 'wb'))
 # saving stats file
-stats_filename = os.path.join(os.environ['OUTPUT_DIR'],'stats.json')
+stats_filename = os.path.join('stats.json')
 with open(stats_filename, 'w') as f:
     f.write(json.dumps(stats))
